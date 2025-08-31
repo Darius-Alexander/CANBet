@@ -8,7 +8,7 @@ const LiveOdds = () => {
     fetch("https://odds-api1.p.rapidapi.com/surebets", {
       method: 'GET',
       headers: {
-        'X-RapidAPI-Key': "b18728c46cmsh4b6072ab1d5baedp15f8d8jsnf1765595f19d",
+        
         'X-RapidAPI-Host': "odds-api1.p.rapidapi.com",
       },
     })
