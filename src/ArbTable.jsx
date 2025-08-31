@@ -44,6 +44,7 @@ const ArbTable = () => {
                         </tr>
                     ))}
         </tbody>
+        
       </table>
     </div>
   );
