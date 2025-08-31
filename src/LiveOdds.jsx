@@ -5,10 +5,11 @@ const LiveOdds = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    console.log("Loaded API Key:", process.env.REACT_APP_RAPIDAPI_KEY);
     fetch("https://odds-api1.p.rapidapi.com/surebets", {
       method: 'GET',
       headers: {
-        
+        "X-RapidAPI-Key": process.env.REACT_APP_RAPIDAPI_KEY,
         'X-RapidAPI-Host': "odds-api1.p.rapidapi.com",
       },
     })
