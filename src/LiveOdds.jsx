@@ -3,7 +3,7 @@ import './LiveOdds.css';
 
 const BLACKLISTED_BOOKMAKERS = [
   "draftkings", "pinnacle", "betmgm", "betmgm_co_uk", "caesars", "fanatics", "fanduel",
-  "888sport.de", "888sport.dk", "888sport.es", "888sport.it", "888sport.ro", "888sport.it", "888sport.ro", 
+  "888sport.de", "888sport.dk", "888sport.es", "888sport.it", "888sport.ro", "888sport.it", "888sport.ro", "betcenter.be",
   "betuk", "fun88.co.uk","highbet.co.uk", "net88.co.uk", "parimatch.co.uk", "pointsbet.com.au",
   "pokerstars.es", "pokerstars.fr", "pokerstars.it", "pokerstars.uk", 
   "unibet.be", "unibet.dk", "unibet.es", "unibet.it", "unibet.ro", "unibet.fr", "unibet.co.uk", "unibet.com.au", "unibet.nl", "unibet.se",
